@@ -55,6 +55,42 @@
       class="md:ml-auto flex flex-wrap items-center text-base justify-center"
     >
       
+      <a
+        class="mr-2 px-2 rounded cursor-pointer select-none hover:text-gray-900 show-all"
+        >All</a
+      >
+      
+      <a
+        class="mr-2 px-2 rounded cursor-pointer select-none hover:text-gray-900 filter-azure"
+        >Azure</a
+      >
+      
+      <a
+        class="mr-2 px-2 rounded cursor-pointer select-none hover:text-gray-900 filter-endpoint"
+        >Endpoint</a
+      >
+      
+      <a
+        class="mr-2 px-2 rounded cursor-pointer select-none hover:text-gray-900 filter-exchange"
+        >Exchange</a
+      >
+      
+      <a
+        class="mr-2 px-2 rounded cursor-pointer select-none hover:text-gray-900 filter-m365"
+        >M365</a
+      >
+      
+      <a
+        class="mr-2 px-2 rounded cursor-pointer select-none hover:text-gray-900 filter-office"
+        >Office</a
+      >
+      
+      <a
+        class="mr-2 px-2 rounded cursor-pointer select-none hover:text-gray-900 filter-security"
+        >Security</a
+      >
+      
+      
       
       <a
       href=""
@@ -803,7 +839,7 @@ if (!doNotTrack) {
 
 
 <script>
-  const allTypes = ["all",  "azures","endpoints","exchanges","m365s","offices","securities",];
+  const allTypes = ["all",  "azure","endpoint","exchange","m365","office","security",];
   const filter = (event, type) => {
     const isActive = event.target.classList.contains("active");
 
