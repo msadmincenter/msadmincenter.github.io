@@ -3,6 +3,26 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://msadmin.center/team/jan/</loc>
+    <lastmod>2020-11-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://msadmin.center/team/jeroen/</loc>
+    <lastmod>2020-11-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://msadmin.center/</loc>
+    <lastmod>2020-11-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://msadmin.center/team/</loc>
+    <lastmod>2020-11-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://msadmin.center/azure/</loc>
     <lastmod>2020-11-19T00:00:00+00:00</lastmod>
   </url>
@@ -79,11 +99,6 @@
   
   <url>
     <loc>https://msadmin.center/azure/portal.atp.azure.com/</loc>
-    <lastmod>2020-11-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://msadmin.center/</loc>
     <lastmod>2020-11-19T00:00:00+00:00</lastmod>
   </url>
   
