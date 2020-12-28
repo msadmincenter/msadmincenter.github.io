@@ -12,7 +12,7 @@
     content="Website with (almost) all Microsoft portals"
   />
   
-  <title>MS Admin Center</title>
+  <title>MS Admin Center | List of almost all Microsoft administrator portals</title>
   <link
     href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
     rel="stylesheet"
@@ -25,11 +25,11 @@
 <meta name="theme-color" content="#ffffff">
   <style>
     @font-face {
-      font-family: "Arvo Regular";
-      src: url("./Arvo-Regular.ttf") format("truetype");
+      font-family: "Segoe UI";
+      src: url("./SegoeUI.ttf") format("truetype");
     }
     .font-bree {
-      font-family: "Arvo Regular", serif;
+      font-family: "Segoe UI", serif;
     }
     .hide {
       display: none;
@@ -50,7 +50,7 @@
     <a
       class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0"
       href="https://msadmin.center"
-    ><img src="images/logo-80x80.png"><span class="ml-3 text-xl">msadmin.center</span></a>
+    ><img src="images/png/logo-80x80.png"><span class="uppercase ml-3 text-xl font-bold">msadmin.center</span></a>
     <nav
       class="md:ml-auto flex flex-wrap items-center text-base justify-center"
     >
@@ -63,16 +63,6 @@
       <a
         class="mr-2 px-2 rounded cursor-pointer select-none hover:text-gray-900 filter-azure"
         >Azure</a
-      >
-      
-      <a
-        class="mr-2 px-2 rounded cursor-pointer select-none hover:text-gray-900 filter-endpoint"
-        >Endpoint</a
-      >
-      
-      <a
-        class="mr-2 px-2 rounded cursor-pointer select-none hover:text-gray-900 filter-exchange"
-        >Exchange</a
       >
       
       <a
@@ -116,14 +106,15 @@
         target="_blank"
         rel="noopener"
         href="https://aad.portal.azure.com/"
-        class="card p-4 md:w-1/3 sm:mb-4 mb-6 hover:shadow-xl hover:bg-gray-400 transition duration-200 ease-in rounded-lg azure"
+        class="card p-4 md:w-1/5 sm:mb-4 mb-6 hover:shadow-xl hover:bg-gray-300 transition duration-200 ease-in rounded-lg azure"
       >
-        <div class="rounded-lg h-64 overflow-hidden relative">
+        <div class="rounded-lg h-54 overflow-hidden relative">
           
           <img
             alt="Azure Active Directory"
+            style="opacity:0.7"
             class="object-cover object-center h-full w-full"
-            src="https://source.unsplash.com/900x600/?directory"
+            src="images/svg/AzureActiveDirectory.svg"
           />
           
           <span
@@ -131,14 +122,48 @@
             >Azure</span
           >
           <h2
-            class="text-white px-2 py-1 tracking-widest text-2xl leading-tight font-extrabold font-bree text-center w-full h-full flex justify-center items-center absolute top-0 left-0"
+            class="text-black px-2 py-1 tracking-widest text-2xl leading-tight font-extrabold font-bree text-center w-full h-full flex justify-center items-center absolute top-0 left-0"
           >
             Azure Active Directory
           </h2>
           <p
-            class="text-white px-2 py-1 tracking-widest text-md leading-tight font-light w-full text-center absolute bottom-0 left-0"
+            class="text-black px-1 py-1 tracking-widest text-md leading-tight font-light w-full text-center absolute bottom-0 left-0"
           >
-            https://aad.portal.azure.com/
+            
+          </p>
+        </div>
+      </a>
+      
+      
+      
+      <a
+        target="_blank"
+        rel="noopener"
+        href="https://shell.azure.com/"
+        class="card p-4 md:w-1/5 sm:mb-4 mb-6 hover:shadow-xl hover:bg-gray-300 transition duration-200 ease-in rounded-lg azure"
+      >
+        <div class="rounded-lg h-54 overflow-hidden relative">
+          
+          <img
+            alt="Azure Cloud Shell"
+            style="opacity:0.7"
+            class="object-cover object-center h-full w-full"
+            src="images/svg/AzureCloudShell.svg"
+          />
+          
+          <span
+            class="bg-blue-500 text-white px-3 py-1 tracking-widest text-xs absolute right-0 top-0 rounded-bl"
+            >Azure</span
+          >
+          <h2
+            class="text-black px-2 py-1 tracking-widest text-2xl leading-tight font-extrabold font-bree text-center w-full h-full flex justify-center items-center absolute top-0 left-0"
+          >
+            Azure Cloud Shell
+          </h2>
+          <p
+            class="text-black px-1 py-1 tracking-widest text-md leading-tight font-light w-full text-center absolute bottom-0 left-0"
+          >
+            
           </p>
         </div>
       </a>
@@ -149,14 +174,15 @@
         target="_blank"
         rel="noopener"
         href="https://nonprofit.microsoft.com#ngoportal"
-        class="card p-4 md:w-1/3 sm:mb-4 mb-6 hover:shadow-xl hover:bg-gray-400 transition duration-200 ease-in rounded-lg azure"
+        class="card p-4 md:w-1/5 sm:mb-4 mb-6 hover:shadow-xl hover:bg-gray-300 transition duration-200 ease-in rounded-lg azure"
       >
-        <div class="rounded-lg h-64 overflow-hidden relative">
+        <div class="rounded-lg h-54 overflow-hidden relative">
           
           <img
             alt="Azure Non-Profit Organizations Portal"
+            style="opacity:0.7"
             class="object-cover object-center h-full w-full"
-            src="https://source.unsplash.com/900x600/?clouds"
+            src="images/svg/Azure.svg"
           />
           
           <span
@@ -164,14 +190,14 @@
             >Azure</span
           >
           <h2
-            class="text-white px-2 py-1 tracking-widest text-2xl leading-tight font-extrabold font-bree text-center w-full h-full flex justify-center items-center absolute top-0 left-0"
+            class="text-black px-2 py-1 tracking-widest text-2xl leading-tight font-extrabold font-bree text-center w-full h-full flex justify-center items-center absolute top-0 left-0"
           >
             Azure Non-Profit Organizations Portal
           </h2>
           <p
-            class="text-white px-2 py-1 tracking-widest text-md leading-tight font-light w-full text-center absolute bottom-0 left-0"
+            class="text-black px-1 py-1 tracking-widest text-md leading-tight font-light w-full text-center absolute bottom-0 left-0"
           >
-            https://nonprofit.microsoft.com
+            
           </p>
         </div>
       </a>
@@ -182,14 +208,15 @@
         target="_blank"
         rel="noopener"
         href="https://portal.azure.com"
-        class="card p-4 md:w-1/3 sm:mb-4 mb-6 hover:shadow-xl hover:bg-gray-400 transition duration-200 ease-in rounded-lg azure"
+        class="card p-4 md:w-1/5 sm:mb-4 mb-6 hover:shadow-xl hover:bg-gray-300 transition duration-200 ease-in rounded-lg azure"
       >
-        <div class="rounded-lg h-64 overflow-hidden relative">
+        <div class="rounded-lg h-54 overflow-hidden relative">
           
           <img
             alt="Azure Portal"
+            style="opacity:0.7"
             class="object-cover object-center h-full w-full"
-            src="https://source.unsplash.com/900x600/?clouds"
+            src="images/svg/Azure.svg"
           />
           
           <span
@@ -197,14 +224,14 @@
             >Azure</span
           >
           <h2
-            class="text-white px-2 py-1 tracking-widest text-2xl leading-tight font-extrabold font-bree text-center w-full h-full flex justify-center items-center absolute top-0 left-0"
+            class="text-black px-2 py-1 tracking-widest text-2xl leading-tight font-extrabold font-bree text-center w-full h-full flex justify-center items-center absolute top-0 left-0"
           >
             Azure Portal
           </h2>
           <p
-            class="text-white px-2 py-1 tracking-widest text-md leading-tight font-light w-full text-center absolute bottom-0 left-0"
+            class="text-black px-1 py-1 tracking-widest text-md leading-tight font-light w-full text-center absolute bottom-0 left-0"
           >
-            https://portal.azure.com
+            
           </p>
         </div>
       </a>
@@ -215,14 +242,15 @@
         target="_blank"
         rel="noopener"
         href="https://preview.portal.azure.com"
-        class="card p-4 md:w-1/3 sm:mb-4 mb-6 hover:shadow-xl hover:bg-gray-400 transition duration-200 ease-in rounded-lg azure"
+        class="card p-4 md:w-1/5 sm:mb-4 mb-6 hover:shadow-xl hover:bg-gray-300 transition duration-200 ease-in rounded-lg azure"
       >
-        <div class="rounded-lg h-64 overflow-hidden relative">
+        <div class="rounded-lg h-54 overflow-hidden relative">
           
           <img
             alt="Azure Preview Portal"
+            style="opacity:0.7"
             class="object-cover object-center h-full w-full"
-            src="https://source.unsplash.com/900x600/?clouds"
+            src="images/svg/Azure.svg"
           />
           
           <span
@@ -230,14 +258,14 @@
             >Azure</span
           >
           <h2
-            class="text-white px-2 py-1 tracking-widest text-2xl leading-tight font-extrabold font-bree text-center w-full h-full flex justify-center items-center absolute top-0 left-0"
+            class="text-black px-2 py-1 tracking-widest text-2xl leading-tight font-extrabold font-bree text-center w-full h-full flex justify-center items-center absolute top-0 left-0"
           >
             Azure Preview Portal
           </h2>
           <p
-            class="text-white px-2 py-1 tracking-widest text-md leading-tight font-light w-full text-center absolute bottom-0 left-0"
+            class="text-black px-1 py-1 tracking-widest text-md leading-tight font-light w-full text-center absolute bottom-0 left-0"
           >
-            https://preview.portal.azure.com
+            
           </p>
         </div>
       </a>
@@ -248,14 +276,15 @@
         target="_blank"
         rel="noopener"
         href="https://portal.cloudappsecurity.com/"
-        class="card p-4 md:w-1/3 sm:mb-4 mb-6 hover:shadow-xl hover:bg-gray-400 transition duration-200 ease-in rounded-lg security"
+        class="card p-4 md:w-1/5 sm:mb-4 mb-6 hover:shadow-xl hover:bg-gray-300 transition duration-200 ease-in rounded-lg security"
       >
-        <div class="rounded-lg h-64 overflow-hidden relative">
+        <div class="rounded-lg h-54 overflow-hidden relative">
           
           <img
-            alt="Cloud App Security Portal"
+            alt="Cloud App Security"
+            style="opacity:0.7"
             class="object-cover object-center h-full w-full"
-            src="https://source.unsplash.com/900x600/?security"
+            src="images/png/CloudAppSecurity.png"
           />
           
           <span
@@ -263,14 +292,14 @@
             >Security</span
           >
           <h2
-            class="text-white px-2 py-1 tracking-widest text-2xl leading-tight font-extrabold font-bree text-center w-full h-full flex justify-center items-center absolute top-0 left-0"
+            class="text-black px-2 py-1 tracking-widest text-2xl leading-tight font-extrabold font-bree text-center w-full h-full flex justify-center items-center absolute top-0 left-0"
           >
-            Cloud App Security Portal
+            Cloud App Security
           </h2>
           <p
-            class="text-white px-2 py-1 tracking-widest text-md leading-tight font-light w-full text-center absolute bottom-0 left-0"
+            class="text-black px-1 py-1 tracking-widest text-md leading-tight font-light w-full text-center absolute bottom-0 left-0"
           >
-            https://portal.cloudappsecurity.com/
+            
           </p>
         </div>
       </a>
@@ -281,29 +310,30 @@
         target="_blank"
         rel="noopener"
         href="https://endpoint.microsoft.com/"
-        class="card p-4 md:w-1/3 sm:mb-4 mb-6 hover:shadow-xl hover:bg-gray-400 transition duration-200 ease-in rounded-lg endpoint"
+        class="card p-4 md:w-1/5 sm:mb-4 mb-6 hover:shadow-xl hover:bg-gray-300 transition duration-200 ease-in rounded-lg m365"
       >
-        <div class="rounded-lg h-64 overflow-hidden relative">
+        <div class="rounded-lg h-54 overflow-hidden relative">
           
           <img
             alt="Endpoint Management"
+            style="opacity:0.7"
             class="object-cover object-center h-full w-full"
-            src="https://source.unsplash.com/900x600/?endpoint"
+            src="images/svg/Intune.svg"
           />
           
           <span
             class="bg-blue-500 text-white px-3 py-1 tracking-widest text-xs absolute right-0 top-0 rounded-bl"
-            >Endpoint</span
+            >M365</span
           >
           <h2
-            class="text-white px-2 py-1 tracking-widest text-2xl leading-tight font-extrabold font-bree text-center w-full h-full flex justify-center items-center absolute top-0 left-0"
+            class="text-black px-2 py-1 tracking-widest text-2xl leading-tight font-extrabold font-bree text-center w-full h-full flex justify-center items-center absolute top-0 left-0"
           >
             Endpoint Management
           </h2>
           <p
-            class="text-white px-2 py-1 tracking-widest text-md leading-tight font-light w-full text-center absolute bottom-0 left-0"
+            class="text-black px-1 py-1 tracking-widest text-md leading-tight font-light w-full text-center absolute bottom-0 left-0"
           >
-            https://endpoint.microsoft.com/
+            
           </p>
         </div>
       </a>
@@ -314,14 +344,15 @@
         target="_blank"
         rel="noopener"
         href="https://ea.azure.com/"
-        class="card p-4 md:w-1/3 sm:mb-4 mb-6 hover:shadow-xl hover:bg-gray-400 transition duration-200 ease-in rounded-lg azure"
+        class="card p-4 md:w-1/5 sm:mb-4 mb-6 hover:shadow-xl hover:bg-gray-300 transition duration-200 ease-in rounded-lg azure"
       >
-        <div class="rounded-lg h-64 overflow-hidden relative">
+        <div class="rounded-lg h-54 overflow-hidden relative">
           
           <img
             alt="Enterprise Azure Portal"
+            style="opacity:0.7"
             class="object-cover object-center h-full w-full"
-            src="https://source.unsplash.com/900x600/?cloud"
+            src="images/svg/AzureActiveDirectory.svg"
           />
           
           <span
@@ -329,14 +360,14 @@
             >Azure</span
           >
           <h2
-            class="text-white px-2 py-1 tracking-widest text-2xl leading-tight font-extrabold font-bree text-center w-full h-full flex justify-center items-center absolute top-0 left-0"
+            class="text-black px-2 py-1 tracking-widest text-2xl leading-tight font-extrabold font-bree text-center w-full h-full flex justify-center items-center absolute top-0 left-0"
           >
             Enterprise Azure Portal
           </h2>
           <p
-            class="text-white px-2 py-1 tracking-widest text-md leading-tight font-light w-full text-center absolute bottom-0 left-0"
+            class="text-black px-1 py-1 tracking-widest text-md leading-tight font-light w-full text-center absolute bottom-0 left-0"
           >
-            https://ea.azure.com/
+            
           </p>
         </div>
       </a>
@@ -347,29 +378,30 @@
         target="_blank"
         rel="noopener"
         href="https://outlook.office365.com/ecp/"
-        class="card p-4 md:w-1/3 sm:mb-4 mb-6 hover:shadow-xl hover:bg-gray-400 transition duration-200 ease-in rounded-lg exchange"
+        class="card p-4 md:w-1/5 sm:mb-4 mb-6 hover:shadow-xl hover:bg-gray-300 transition duration-200 ease-in rounded-lg m365"
       >
-        <div class="rounded-lg h-64 overflow-hidden relative">
+        <div class="rounded-lg h-54 overflow-hidden relative">
           
           <img
             alt="Exchange Online Admin Center"
+            style="opacity:0.7"
             class="object-cover object-center h-full w-full"
-            src="https://source.unsplash.com/900x600/?mail"
+            src="images/png/Exchange.png"
           />
           
           <span
             class="bg-blue-500 text-white px-3 py-1 tracking-widest text-xs absolute right-0 top-0 rounded-bl"
-            >Exchange</span
+            >M365</span
           >
           <h2
-            class="text-white px-2 py-1 tracking-widest text-2xl leading-tight font-extrabold font-bree text-center w-full h-full flex justify-center items-center absolute top-0 left-0"
+            class="text-black px-2 py-1 tracking-widest text-2xl leading-tight font-extrabold font-bree text-center w-full h-full flex justify-center items-center absolute top-0 left-0"
           >
             Exchange Online Admin Center
           </h2>
           <p
-            class="text-white px-2 py-1 tracking-widest text-md leading-tight font-light w-full text-center absolute bottom-0 left-0"
+            class="text-black px-1 py-1 tracking-widest text-md leading-tight font-light w-full text-center absolute bottom-0 left-0"
           >
-            https://outlook.office365.com/ecp
+            
           </p>
         </div>
       </a>
@@ -380,14 +412,15 @@
         target="_blank"
         rel="noopener"
         href="https://admin.microsoft.com"
-        class="card p-4 md:w-1/3 sm:mb-4 mb-6 hover:shadow-xl hover:bg-gray-400 transition duration-200 ease-in rounded-lg m365"
+        class="card p-4 md:w-1/5 sm:mb-4 mb-6 hover:shadow-xl hover:bg-gray-300 transition duration-200 ease-in rounded-lg m365"
       >
-        <div class="rounded-lg h-64 overflow-hidden relative">
+        <div class="rounded-lg h-54 overflow-hidden relative">
           
           <img
             alt="M365 Admin Center"
+            style="opacity:0.7"
             class="object-cover object-center h-full w-full"
-            src="https://source.unsplash.com/900x600/?microsoft"
+            src="images/svg/Microsoft.svg"
           />
           
           <span
@@ -395,14 +428,14 @@
             >M365</span
           >
           <h2
-            class="text-white px-2 py-1 tracking-widest text-2xl leading-tight font-extrabold font-bree text-center w-full h-full flex justify-center items-center absolute top-0 left-0"
+            class="text-black px-2 py-1 tracking-widest text-2xl leading-tight font-extrabold font-bree text-center w-full h-full flex justify-center items-center absolute top-0 left-0"
           >
             M365 Admin Center
           </h2>
           <p
-            class="text-white px-2 py-1 tracking-widest text-md leading-tight font-light w-full text-center absolute bottom-0 left-0"
+            class="text-black px-1 py-1 tracking-widest text-md leading-tight font-light w-full text-center absolute bottom-0 left-0"
           >
-            https://admin.microsoft.com
+            
           </p>
         </div>
       </a>
@@ -413,14 +446,15 @@
         target="_blank"
         rel="noopener"
         href="https://compliance.microsoft.com/"
-        class="card p-4 md:w-1/3 sm:mb-4 mb-6 hover:shadow-xl hover:bg-gray-400 transition duration-200 ease-in rounded-lg security"
+        class="card p-4 md:w-1/5 sm:mb-4 mb-6 hover:shadow-xl hover:bg-gray-300 transition duration-200 ease-in rounded-lg security"
       >
-        <div class="rounded-lg h-64 overflow-hidden relative">
+        <div class="rounded-lg h-54 overflow-hidden relative">
           
           <img
             alt="M365 Compliance Center"
+            style="opacity:0.7"
             class="object-cover object-center h-full w-full"
-            src="https://source.unsplash.com/900x600/?security"
+            src="images/svg/SecurityCompliance.svg"
           />
           
           <span
@@ -428,47 +462,14 @@
             >Security</span
           >
           <h2
-            class="text-white px-2 py-1 tracking-widest text-2xl leading-tight font-extrabold font-bree text-center w-full h-full flex justify-center items-center absolute top-0 left-0"
+            class="text-black px-2 py-1 tracking-widest text-2xl leading-tight font-extrabold font-bree text-center w-full h-full flex justify-center items-center absolute top-0 left-0"
           >
             M365 Compliance Center
           </h2>
           <p
-            class="text-white px-2 py-1 tracking-widest text-md leading-tight font-light w-full text-center absolute bottom-0 left-0"
+            class="text-black px-1 py-1 tracking-widest text-md leading-tight font-light w-full text-center absolute bottom-0 left-0"
           >
-            https://compliance.microsoft.com/
-          </p>
-        </div>
-      </a>
-      
-      
-      
-      <a
-        target="_blank"
-        rel="noopener"
-        href="https://securitycenter.microsoft.com"
-        class="card p-4 md:w-1/3 sm:mb-4 mb-6 hover:shadow-xl hover:bg-gray-400 transition duration-200 ease-in rounded-lg security"
-      >
-        <div class="rounded-lg h-64 overflow-hidden relative">
-          
-          <img
-            alt="M365 Defender Security Center"
-            class="object-cover object-center h-full w-full"
-            src="https://source.unsplash.com/900x600/?security"
-          />
-          
-          <span
-            class="bg-blue-500 text-white px-3 py-1 tracking-widest text-xs absolute right-0 top-0 rounded-bl"
-            >Security</span
-          >
-          <h2
-            class="text-white px-2 py-1 tracking-widest text-2xl leading-tight font-extrabold font-bree text-center w-full h-full flex justify-center items-center absolute top-0 left-0"
-          >
-            M365 Defender Security Center
-          </h2>
-          <p
-            class="text-white px-2 py-1 tracking-widest text-md leading-tight font-light w-full text-center absolute bottom-0 left-0"
-          >
-            https://securitycenter.microsoft.com
+            
           </p>
         </div>
       </a>
@@ -479,14 +480,15 @@
         target="_blank"
         rel="noopener"
         href="https://admin.onedrive.com"
-        class="card p-4 md:w-1/3 sm:mb-4 mb-6 hover:shadow-xl hover:bg-gray-400 transition duration-200 ease-in rounded-lg m365"
+        class="card p-4 md:w-1/5 sm:mb-4 mb-6 hover:shadow-xl hover:bg-gray-300 transition duration-200 ease-in rounded-lg m365"
       >
-        <div class="rounded-lg h-64 overflow-hidden relative">
+        <div class="rounded-lg h-54 overflow-hidden relative">
           
           <img
             alt="M365 Onedrive Admin Center"
+            style="opacity:0.7"
             class="object-cover object-center h-full w-full"
-            src="https://source.unsplash.com/900x600/?storage"
+            src="images/png/OneDrive.png"
           />
           
           <span
@@ -494,14 +496,14 @@
             >M365</span
           >
           <h2
-            class="text-white px-2 py-1 tracking-widest text-2xl leading-tight font-extrabold font-bree text-center w-full h-full flex justify-center items-center absolute top-0 left-0"
+            class="text-black px-2 py-1 tracking-widest text-2xl leading-tight font-extrabold font-bree text-center w-full h-full flex justify-center items-center absolute top-0 left-0"
           >
             M365 Onedrive Admin Center
           </h2>
           <p
-            class="text-white px-2 py-1 tracking-widest text-md leading-tight font-light w-full text-center absolute bottom-0 left-0"
+            class="text-black px-1 py-1 tracking-widest text-md leading-tight font-light w-full text-center absolute bottom-0 left-0"
           >
-            https://admin.onedrive.com
+            
           </p>
         </div>
       </a>
@@ -512,14 +514,15 @@
         target="_blank"
         rel="noopener"
         href="https://admin.microsoft.com/sharepoint"
-        class="card p-4 md:w-1/3 sm:mb-4 mb-6 hover:shadow-xl hover:bg-gray-400 transition duration-200 ease-in rounded-lg m365"
+        class="card p-4 md:w-1/5 sm:mb-4 mb-6 hover:shadow-xl hover:bg-gray-300 transition duration-200 ease-in rounded-lg m365"
       >
-        <div class="rounded-lg h-64 overflow-hidden relative">
+        <div class="rounded-lg h-54 overflow-hidden relative">
           
           <img
             alt="M365 Sharepoint Admin Center"
+            style="opacity:0.7"
             class="object-cover object-center h-full w-full"
-            src="https://source.unsplash.com/900x600/?microsoft"
+            src="images/png/SharePoint.png"
           />
           
           <span
@@ -527,14 +530,14 @@
             >M365</span
           >
           <h2
-            class="text-white px-2 py-1 tracking-widest text-2xl leading-tight font-extrabold font-bree text-center w-full h-full flex justify-center items-center absolute top-0 left-0"
+            class="text-black px-2 py-1 tracking-widest text-2xl leading-tight font-extrabold font-bree text-center w-full h-full flex justify-center items-center absolute top-0 left-0"
           >
             M365 Sharepoint Admin Center
           </h2>
           <p
-            class="text-white px-2 py-1 tracking-widest text-md leading-tight font-light w-full text-center absolute bottom-0 left-0"
+            class="text-black px-1 py-1 tracking-widest text-md leading-tight font-light w-full text-center absolute bottom-0 left-0"
           >
-            https://admin.microsoft.com/sharepoint
+            
           </p>
         </div>
       </a>
@@ -545,14 +548,15 @@
         target="_blank"
         rel="noopener"
         href="https://admin.teams.microsoft.com"
-        class="card p-4 md:w-1/3 sm:mb-4 mb-6 hover:shadow-xl hover:bg-gray-400 transition duration-200 ease-in rounded-lg m365"
+        class="card p-4 md:w-1/5 sm:mb-4 mb-6 hover:shadow-xl hover:bg-gray-300 transition duration-200 ease-in rounded-lg m365"
       >
-        <div class="rounded-lg h-64 overflow-hidden relative">
+        <div class="rounded-lg h-54 overflow-hidden relative">
           
           <img
             alt="M365 Teams Admin Center"
+            style="opacity:0.7"
             class="object-cover object-center h-full w-full"
-            src="https://source.unsplash.com/900x600/?teams"
+            src="images/png/Teams.png"
           />
           
           <span
@@ -560,14 +564,48 @@
             >M365</span
           >
           <h2
-            class="text-white px-2 py-1 tracking-widest text-2xl leading-tight font-extrabold font-bree text-center w-full h-full flex justify-center items-center absolute top-0 left-0"
+            class="text-black px-2 py-1 tracking-widest text-2xl leading-tight font-extrabold font-bree text-center w-full h-full flex justify-center items-center absolute top-0 left-0"
           >
             M365 Teams Admin Center
           </h2>
           <p
-            class="text-white px-2 py-1 tracking-widest text-md leading-tight font-light w-full text-center absolute bottom-0 left-0"
+            class="text-black px-1 py-1 tracking-widest text-md leading-tight font-light w-full text-center absolute bottom-0 left-0"
           >
-            https://admin.teams.microsoft.com
+            
+          </p>
+        </div>
+      </a>
+      
+      
+      
+      <a
+        target="_blank"
+        rel="noopener"
+        href="https://securitycenter.microsoft.com"
+        class="card p-4 md:w-1/5 sm:mb-4 mb-6 hover:shadow-xl hover:bg-gray-300 transition duration-200 ease-in rounded-lg security"
+      >
+        <div class="rounded-lg h-54 overflow-hidden relative">
+          
+          <img
+            alt="Microsoft Defender for Endpoint"
+            style="opacity:0.7"
+            class="object-cover object-center h-full w-full"
+            src="images/svg/SecurityCenter.svg"
+          />
+          
+          <span
+            class="bg-blue-500 text-white px-3 py-1 tracking-widest text-xs absolute right-0 top-0 rounded-bl"
+            >Security</span
+          >
+          <h2
+            class="text-black px-2 py-1 tracking-widest text-2xl leading-tight font-extrabold font-bree text-center w-full h-full flex justify-center items-center absolute top-0 left-0"
+          >
+            Microsoft Defender for Endpoint
+          </h2>
+          <p
+            class="text-black px-1 py-1 tracking-widest text-md leading-tight font-light w-full text-center absolute bottom-0 left-0"
+          >
+            
           </p>
         </div>
       </a>
@@ -578,14 +616,15 @@
         target="_blank"
         rel="noopener"
         href="https://portal.atp.azure.com/"
-        class="card p-4 md:w-1/3 sm:mb-4 mb-6 hover:shadow-xl hover:bg-gray-400 transition duration-200 ease-in rounded-lg azure"
+        class="card p-4 md:w-1/5 sm:mb-4 mb-6 hover:shadow-xl hover:bg-gray-300 transition duration-200 ease-in rounded-lg azure"
       >
-        <div class="rounded-lg h-64 overflow-hidden relative">
+        <div class="rounded-lg h-54 overflow-hidden relative">
           
           <img
             alt="Microsoft Defender for Identity (Azure ATP)"
+            style="opacity:0.7"
             class="object-cover object-center h-full w-full"
-            src="https://source.unsplash.com/900x600/?security"
+            src="images/svg/MicrosoftDefenderATP.svg"
           />
           
           <span
@@ -593,14 +632,48 @@
             >Azure</span
           >
           <h2
-            class="text-white px-2 py-1 tracking-widest text-2xl leading-tight font-extrabold font-bree text-center w-full h-full flex justify-center items-center absolute top-0 left-0"
+            class="text-black px-2 py-1 tracking-widest text-2xl leading-tight font-extrabold font-bree text-center w-full h-full flex justify-center items-center absolute top-0 left-0"
           >
             Microsoft Defender for Identity (Azure ATP)
           </h2>
           <p
-            class="text-white px-2 py-1 tracking-widest text-md leading-tight font-light w-full text-center absolute bottom-0 left-0"
+            class="text-black px-1 py-1 tracking-widest text-md leading-tight font-light w-full text-center absolute bottom-0 left-0"
           >
-            https://portal.atp.azure.com/
+            
+          </p>
+        </div>
+      </a>
+      
+      
+      
+      <a
+        target="_blank"
+        rel="noopener"
+        href="https://portal.atp.azure.com/"
+        class="card p-4 md:w-1/5 sm:mb-4 mb-6 hover:shadow-xl hover:bg-gray-300 transition duration-200 ease-in rounded-lg security"
+      >
+        <div class="rounded-lg h-54 overflow-hidden relative">
+          
+          <img
+            alt="Microsoft Defender for Identity (Azure ATP)"
+            style="opacity:0.7"
+            class="object-cover object-center h-full w-full"
+            src="images/svg/MicrosoftDefenderATP.svg"
+          />
+          
+          <span
+            class="bg-blue-500 text-white px-3 py-1 tracking-widest text-xs absolute right-0 top-0 rounded-bl"
+            >Security</span
+          >
+          <h2
+            class="text-black px-2 py-1 tracking-widest text-2xl leading-tight font-extrabold font-bree text-center w-full h-full flex justify-center items-center absolute top-0 left-0"
+          >
+            Microsoft Defender for Identity (Azure ATP)
+          </h2>
+          <p
+            class="text-black px-1 py-1 tracking-widest text-md leading-tight font-light w-full text-center absolute bottom-0 left-0"
+          >
+            
           </p>
         </div>
       </a>
@@ -611,14 +684,15 @@
         target="_blank"
         rel="noopener"
         href="https://protection.office.com"
-        class="card p-4 md:w-1/3 sm:mb-4 mb-6 hover:shadow-xl hover:bg-gray-400 transition duration-200 ease-in rounded-lg office"
+        class="card p-4 md:w-1/5 sm:mb-4 mb-6 hover:shadow-xl hover:bg-gray-300 transition duration-200 ease-in rounded-lg office"
       >
-        <div class="rounded-lg h-64 overflow-hidden relative">
+        <div class="rounded-lg h-54 overflow-hidden relative">
           
           <img
             alt="Office 365 Security &amp; Compliance"
+            style="opacity:0.7"
             class="object-cover object-center h-full w-full"
-            src="https://source.unsplash.com/900x600/?office"
+            src="images/svg/SecurityCompliance.svg"
           />
           
           <span
@@ -626,14 +700,14 @@
             >Office</span
           >
           <h2
-            class="text-white px-2 py-1 tracking-widest text-2xl leading-tight font-extrabold font-bree text-center w-full h-full flex justify-center items-center absolute top-0 left-0"
+            class="text-black px-2 py-1 tracking-widest text-2xl leading-tight font-extrabold font-bree text-center w-full h-full flex justify-center items-center absolute top-0 left-0"
           >
             Office 365 Security &amp; Compliance
           </h2>
           <p
-            class="text-white px-2 py-1 tracking-widest text-md leading-tight font-light w-full text-center absolute bottom-0 left-0"
+            class="text-black px-1 py-1 tracking-widest text-md leading-tight font-light w-full text-center absolute bottom-0 left-0"
           >
-            https://protection.office.com
+            
           </p>
         </div>
       </a>
@@ -644,14 +718,15 @@
         target="_blank"
         rel="noopener"
         href="https://config.office.com"
-        class="card p-4 md:w-1/3 sm:mb-4 mb-6 hover:shadow-xl hover:bg-gray-400 transition duration-200 ease-in rounded-lg office"
+        class="card p-4 md:w-1/5 sm:mb-4 mb-6 hover:shadow-xl hover:bg-gray-300 transition duration-200 ease-in rounded-lg office"
       >
-        <div class="rounded-lg h-64 overflow-hidden relative">
+        <div class="rounded-lg h-54 overflow-hidden relative">
           
           <img
             alt="Office Apps Admin Center"
+            style="opacity:0.7"
             class="object-cover object-center h-full w-full"
-            src="https://source.unsplash.com/900x600/?office"
+            src="images/png/Office.png"
           />
           
           <span
@@ -659,14 +734,14 @@
             >Office</span
           >
           <h2
-            class="text-white px-2 py-1 tracking-widest text-2xl leading-tight font-extrabold font-bree text-center w-full h-full flex justify-center items-center absolute top-0 left-0"
+            class="text-black px-2 py-1 tracking-widest text-2xl leading-tight font-extrabold font-bree text-center w-full h-full flex justify-center items-center absolute top-0 left-0"
           >
             Office Apps Admin Center
           </h2>
           <p
-            class="text-white px-2 py-1 tracking-widest text-md leading-tight font-light w-full text-center absolute bottom-0 left-0"
+            class="text-black px-1 py-1 tracking-widest text-md leading-tight font-light w-full text-center absolute bottom-0 left-0"
           >
-            https://config.office.com
+            
           </p>
         </div>
       </a>
@@ -677,14 +752,15 @@
         target="_blank"
         rel="noopener"
         href="https://app.powerbi.com/admin-portal"
-        class="card p-4 md:w-1/3 sm:mb-4 mb-6 hover:shadow-xl hover:bg-gray-400 transition duration-200 ease-in rounded-lg m365"
+        class="card p-4 md:w-1/5 sm:mb-4 mb-6 hover:shadow-xl hover:bg-gray-300 transition duration-200 ease-in rounded-lg m365"
       >
-        <div class="rounded-lg h-64 overflow-hidden relative">
+        <div class="rounded-lg h-54 overflow-hidden relative">
           
           <img
             alt="Power BI Admin Center"
+            style="opacity:0.7"
             class="object-cover object-center h-full w-full"
-            src="https://source.unsplash.com/900x600/?data"
+            src="images/svg/PowerBI.svg"
           />
           
           <span
@@ -692,14 +768,14 @@
             >M365</span
           >
           <h2
-            class="text-white px-2 py-1 tracking-widest text-2xl leading-tight font-extrabold font-bree text-center w-full h-full flex justify-center items-center absolute top-0 left-0"
+            class="text-black px-2 py-1 tracking-widest text-2xl leading-tight font-extrabold font-bree text-center w-full h-full flex justify-center items-center absolute top-0 left-0"
           >
             Power BI Admin Center
           </h2>
           <p
-            class="text-white px-2 py-1 tracking-widest text-md leading-tight font-light w-full text-center absolute bottom-0 left-0"
+            class="text-black px-1 py-1 tracking-widest text-md leading-tight font-light w-full text-center absolute bottom-0 left-0"
           >
-            https://app.powerbi.com/admin-portal
+            
           </p>
         </div>
       </a>
@@ -710,14 +786,15 @@
         target="_blank"
         rel="noopener"
         href="https://admin.powerapps.com/"
-        class="card p-4 md:w-1/3 sm:mb-4 mb-6 hover:shadow-xl hover:bg-gray-400 transition duration-200 ease-in rounded-lg m365"
+        class="card p-4 md:w-1/5 sm:mb-4 mb-6 hover:shadow-xl hover:bg-gray-300 transition duration-200 ease-in rounded-lg m365"
       >
-        <div class="rounded-lg h-64 overflow-hidden relative">
+        <div class="rounded-lg h-54 overflow-hidden relative">
           
           <img
             alt="Power Platform Admin Center"
+            style="opacity:0.7"
             class="object-cover object-center h-full w-full"
-            src="https://source.unsplash.com/900x600/?data"
+            src="images/svg/PowerApps.svg"
           />
           
           <span
@@ -725,14 +802,82 @@
             >M365</span
           >
           <h2
-            class="text-white px-2 py-1 tracking-widest text-2xl leading-tight font-extrabold font-bree text-center w-full h-full flex justify-center items-center absolute top-0 left-0"
+            class="text-black px-2 py-1 tracking-widest text-2xl leading-tight font-extrabold font-bree text-center w-full h-full flex justify-center items-center absolute top-0 left-0"
           >
             Power Platform Admin Center
           </h2>
           <p
-            class="text-white px-2 py-1 tracking-widest text-md leading-tight font-light w-full text-center absolute bottom-0 left-0"
+            class="text-black px-1 py-1 tracking-widest text-md leading-tight font-light w-full text-center absolute bottom-0 left-0"
           >
-            https://admin.powerapps.com/
+            
+          </p>
+        </div>
+      </a>
+      
+      
+      
+      <a
+        target="_blank"
+        rel="noopener"
+        href="https://web.microsoftstream.com/admin"
+        class="card p-4 md:w-1/5 sm:mb-4 mb-6 hover:shadow-xl hover:bg-gray-300 transition duration-200 ease-in rounded-lg m365"
+      >
+        <div class="rounded-lg h-54 overflow-hidden relative">
+          
+          <img
+            alt="Stream Admin Center"
+            style="opacity:0.7"
+            class="object-cover object-center h-full w-full"
+            src="images/png/Stream.png"
+          />
+          
+          <span
+            class="bg-blue-500 text-white px-3 py-1 tracking-widest text-xs absolute right-0 top-0 rounded-bl"
+            >M365</span
+          >
+          <h2
+            class="text-black px-2 py-1 tracking-widest text-2xl leading-tight font-extrabold font-bree text-center w-full h-full flex justify-center items-center absolute top-0 left-0"
+          >
+            Stream Admin Center
+          </h2>
+          <p
+            class="text-black px-1 py-1 tracking-widest text-md leading-tight font-light w-full text-center absolute bottom-0 left-0"
+          >
+            
+          </p>
+        </div>
+      </a>
+      
+      
+      
+      <a
+        target="_blank"
+        rel="noopener"
+        href="https:///www.yammer.com/admin"
+        class="card p-4 md:w-1/5 sm:mb-4 mb-6 hover:shadow-xl hover:bg-gray-300 transition duration-200 ease-in rounded-lg m365"
+      >
+        <div class="rounded-lg h-54 overflow-hidden relative">
+          
+          <img
+            alt="Yammer Admin Center"
+            style="opacity:0.7"
+            class="object-cover object-center h-full w-full"
+            src="images/png/Yammer.png"
+          />
+          
+          <span
+            class="bg-blue-500 text-white px-3 py-1 tracking-widest text-xs absolute right-0 top-0 rounded-bl"
+            >M365</span
+          >
+          <h2
+            class="text-black px-2 py-1 tracking-widest text-2xl leading-tight font-extrabold font-bree text-center w-full h-full flex justify-center items-center absolute top-0 left-0"
+          >
+            Yammer Admin Center
+          </h2>
+          <p
+            class="text-black px-1 py-1 tracking-widest text-md leading-tight font-light w-full text-center absolute bottom-0 left-0"
+          >
+            
           </p>
         </div>
       </a>
@@ -743,14 +888,15 @@
         target="_blank"
         rel="noopener"
         href="https://janbakker.tech"
-        class="card p-4 md:w-1/3 sm:mb-4 mb-6 hover:shadow-xl hover:bg-gray-400 transition duration-200 ease-in rounded-lg team"
+        class="card p-4 md:w-1/5 sm:mb-4 mb-6 hover:shadow-xl hover:bg-gray-300 transition duration-200 ease-in rounded-lg team"
       >
-        <div class="rounded-lg h-64 overflow-hidden relative">
+        <div class="rounded-lg h-54 overflow-hidden relative">
           
           <img
             alt="Jan Bakker"
+            style="opacity:0.7"
             class="object-cover object-center h-full w-full"
-            src="/images/2TK94LY3_400x400.jpg"
+            src="/images/jpg/2TK94LY3_400x400.jpg"
           />
           
           <span
@@ -763,9 +909,9 @@
             Jan Bakker
           </h2>
           <p
-            class="text-black px-2 py-1 tracking-widest text-md leading-tight font-light w-full text-center absolute bottom-0 left-0"
+            class="text-black px-1 py-1 tracking-widest text-md leading-tight font-light w-full text-center absolute bottom-0 left-0"
           >
-            Cloud Consultant
+            
           </p>
         </div>
       </a>
@@ -776,14 +922,15 @@
         target="_blank"
         rel="noopener"
         href="https://burgerhout.org"
-        class="card p-4 md:w-1/3 sm:mb-4 mb-6 hover:shadow-xl hover:bg-gray-400 transition duration-200 ease-in rounded-lg team"
+        class="card p-4 md:w-1/5 sm:mb-4 mb-6 hover:shadow-xl hover:bg-gray-300 transition duration-200 ease-in rounded-lg team"
       >
-        <div class="rounded-lg h-64 overflow-hidden relative">
+        <div class="rounded-lg h-54 overflow-hidden relative">
           
           <img
             alt="Jeroen Burgerhout"
+            style="opacity:0.7"
             class="object-cover object-center h-full w-full"
-            src="/images/j8MTAbrm_400x400.jpg"
+            src="/images/jpg/j8MTAbrm_400x400.jpg"
           />
           
           <span
@@ -796,9 +943,9 @@
             Jeroen Burgerhout
           </h2>
           <p
-            class="text-black px-2 py-1 tracking-widest text-md leading-tight font-light w-full text-center absolute bottom-0 left-0"
+            class="text-black px-1 py-1 tracking-widest text-md leading-tight font-light w-full text-center absolute bottom-0 left-0"
           >
-            Microsoft Cloud Consultant &amp; Microsoft Certified Trainer
+            
           </p>
         </div>
       </a>
@@ -905,7 +1052,7 @@ if (!doNotTrack) {
 
 
 <script>
-  const allTypes = ["all",  "azure","endpoint","exchange","m365","office","security","team",];
+  const allTypes = ["all",  "azure","m365","office","security","team",];
   const filter = (event, type) => {
     const isActive = event.target.classList.contains("active");
 

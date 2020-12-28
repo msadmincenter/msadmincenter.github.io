@@ -13,6 +13,11 @@
   </url>
   
   <url>
+    <loc>https://msadmin.center/azure/shell.azure.com/</loc>
+    <lastmod>2020-11-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://msadmin.center/azure/nonprofit.microsoft.com/</loc>
     <lastmod>2020-11-26T00:00:00+00:00</lastmod>
   </url>
@@ -33,12 +38,7 @@
   </url>
   
   <url>
-    <loc>https://msadmin.center/endpoint/</loc>
-    <lastmod>2020-11-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://msadmin.center/endpoint/endpoint.microsoft.com/</loc>
+    <loc>https://msadmin.center/m365/endpoint.microsoft.com/</loc>
     <lastmod>2020-11-26T00:00:00+00:00</lastmod>
   </url>
   
@@ -48,12 +48,7 @@
   </url>
   
   <url>
-    <loc>https://msadmin.center/exchange/</loc>
-    <lastmod>2020-11-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://msadmin.center/exchange/outlook.office365.com/</loc>
+    <loc>https://msadmin.center/m365/outlook.office365.com/</loc>
     <lastmod>2020-11-26T00:00:00+00:00</lastmod>
   </url>
   
@@ -73,11 +68,6 @@
   </url>
   
   <url>
-    <loc>https://msadmin.center/security/securitycenter.microsoft.com/</loc>
-    <lastmod>2020-11-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://msadmin.center/m365/admin.onedrive.com/</loc>
     <lastmod>2020-11-26T00:00:00+00:00</lastmod>
   </url>
@@ -93,7 +83,17 @@
   </url>
   
   <url>
+    <loc>https://msadmin.center/security/securitycenter.microsoft.com/</loc>
+    <lastmod>2020-11-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://msadmin.center/azure/portal.atp.azure.com/</loc>
+    <lastmod>2020-11-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://msadmin.center/security/portal.atp.azure.com/</loc>
     <lastmod>2020-11-26T00:00:00+00:00</lastmod>
   </url>
   
@@ -129,6 +129,16 @@
   
   <url>
     <loc>https://msadmin.center/security/</loc>
+    <lastmod>2020-11-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://msadmin.center/m365/web.microsoftstream.com-admin/</loc>
+    <lastmod>2020-11-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://msadmin.center/m365/www.yammer.com-admin/</loc>
     <lastmod>2020-11-26T00:00:00+00:00</lastmod>
   </url>
   
