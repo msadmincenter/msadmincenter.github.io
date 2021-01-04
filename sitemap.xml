@@ -38,6 +38,11 @@
   </url>
   
   <url>
+    <loc>https://msadmin.center/security/compliance.microsoft.com/</loc>
+    <lastmod>2020-11-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://msadmin.center/m365/endpoint.microsoft.com/</loc>
     <lastmod>2020-11-26T00:00:00+00:00</lastmod>
   </url>
@@ -63,32 +68,7 @@
   </url>
   
   <url>
-    <loc>https://msadmin.center/security/compliance.microsoft.com/</loc>
-    <lastmod>2020-11-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://msadmin.center/m365/admin.onedrive.com/</loc>
-    <lastmod>2020-11-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://msadmin.center/m365/admin.microsoft.com.sharepoint/</loc>
-    <lastmod>2020-11-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://msadmin.center/m365/admin.teams.microsoft.com/</loc>
-    <lastmod>2020-11-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://msadmin.center/security/securitycenter.microsoft.com/</loc>
-    <lastmod>2020-11-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://msadmin.center/azure/portal.atp.azure.com/</loc>
     <lastmod>2020-11-26T00:00:00+00:00</lastmod>
   </url>
   
@@ -118,6 +98,11 @@
   </url>
   
   <url>
+    <loc>https://msadmin.center/m365/admin.onedrive.com/</loc>
+    <lastmod>2020-11-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://msadmin.center/m365/app.powerbi.com.admin-portal/</loc>
     <lastmod>2020-11-26T00:00:00+00:00</lastmod>
   </url>
@@ -133,7 +118,17 @@
   </url>
   
   <url>
+    <loc>https://msadmin.center/m365/admin.microsoft.com.sharepoint/</loc>
+    <lastmod>2020-11-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://msadmin.center/m365/web.microsoftstream.com-admin/</loc>
+    <lastmod>2020-11-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://msadmin.center/m365/admin.teams.microsoft.com/</loc>
     <lastmod>2020-11-26T00:00:00+00:00</lastmod>
   </url>
   
