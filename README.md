@@ -1,1 +1,1 @@
-# msadmincenter.github.io
+# https://msadmin.center
