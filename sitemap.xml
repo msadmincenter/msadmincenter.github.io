@@ -14,19 +14,10 @@
     <loc>https://msadmin.center/azure/nonprofit.microsoft.com/</loc>
     <lastmod>2020-11-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://msadmin.center/azure/portal.azure.com/</loc>
+    <loc>https://msadmin.center/azure/aka.ms.azad/</loc>
     <lastmod>2020-11-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://msadmin.center/azure/preview.portal.azure.com/</loc>
-    <lastmod>2020-11-26T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://msadmin.center/security/portal.cloudappsecurity.com/</loc>
-    <lastmod>2020-11-26T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://msadmin.center/security/compliance.microsoft.com/</loc>
-    <lastmod>2020-11-26T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://msadmin.center/m365/endpoint.microsoft.com/</loc>
     <lastmod>2020-11-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://msadmin.center/azure/ea.azure.com/</loc>
@@ -35,16 +26,22 @@
     <loc>https://msadmin.center/m365/admin.exchange.microsoft.com/</loc>
     <lastmod>2020-11-26T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://msadmin.center/m365/aka.ms.ge/</loc>
+    <lastmod>2020-11-26T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://msadmin.center/m365/</loc>
     <lastmod>2020-11-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://msadmin.center/m365/admin.microsoft.com/</loc>
+    <loc>https://msadmin.center/m365/aka.ms.admin/</loc>
     <lastmod>2020-11-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://msadmin.center/security/security.microsoft.com/</loc>
     <lastmod>2020-11-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://msadmin.center/security/portal.atp.azure.com/</loc>
+    <loc>https://msadmin.center/m365/aka.ms.in/</loc>
+    <lastmod>2020-11-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://msadmin.center/security/compliance.microsoft.com/</loc>
     <lastmod>2020-11-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://msadmin.center/</loc>
